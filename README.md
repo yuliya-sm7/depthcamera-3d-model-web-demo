@@ -1,4 +1,7 @@
-# 3D scanning and camera tracking using a depth camera
+#Пример получения 3D-модели
+https://intel.github.io/depthcamera-3d-model-web-demo
+
+<!-- # 3D scanning and camera tracking using a depth camera
 
 This project is a demonstration on how to use an Intel® RealSense™ camera and
 create a full 3D model of an object by moving the
@@ -90,7 +93,7 @@ model creation are described in the file `shaders/model-fshader.js`.
 ### Rendering
 
 This stage is the simplest and is more closely described in the file
-`shaders/renderer-fshader.js`. It uses the 
+`shaders/renderer-fshader.js`. It uses the
 [raymarching](http://www.alanzucconi.com/2016/07/01/raymarching/)
 algorithm (a simpler and faster version of raytracing) to render the volumetric,
 model, on which it then applies Phong lighting.
@@ -118,4 +121,4 @@ permissions, which are remembered only for https pages.
 
 ---
 Intel and Intel RealSense are trademarks of Intel Corporation in the U.S. and/or
-other countries.
+other countries. -->

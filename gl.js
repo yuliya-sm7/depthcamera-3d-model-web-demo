@@ -89,7 +89,7 @@ function setupPrograms(gl) {
 function setupGL(canvasElement) {
     let gl;
     try {
-        gl = canvasElement.getContext('webgl2');
+        gl = canvasElement.getContext('webgl2'); 
     } catch (e) {
         showErrorToUser('Your browser doesn\'t support WebGL2.');
         throw new Error(`Could not create WebGL2 context: ${e}`);
